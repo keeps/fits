@@ -17,14 +17,14 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.tests;
-
+/*
 import org.custommonkey.xmlunit.Difference;
 import org.custommonkey.xmlunit.DifferenceConstants;
 import org.custommonkey.xmlunit.DifferenceListener;
 import org.w3c.dom.Node;
-
-public class IgnoreAttributeValuesDifferenceListener implements DifferenceListener {
-	
+*/
+public class IgnoreAttributeValuesDifferenceListener/* implements DifferenceListener */{
+	/*
 	 private static final int[] IGNORE_VALUES = new int[] {
 		   DifferenceConstants.ATTR_VALUE.getId(),
 		   DifferenceConstants.ATTR_VALUE_EXPLICITLY_SPECIFIED.getId()
@@ -53,6 +53,6 @@ public class IgnoreAttributeValuesDifferenceListener implements DifferenceListen
 			}
 		}
 		return false;
-	}
+	}*/
 
 }

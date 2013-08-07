@@ -17,7 +17,7 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.tests;
-
+/*
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -36,18 +36,18 @@ import edu.harvard.hul.ois.fits.Fits;
 import edu.harvard.hul.ois.fits.FitsMetadataElement;
 import edu.harvard.hul.ois.fits.FitsOutput;
 
-
+*/
 
 public class TestOutput {
-	
+	/*
 	private static final String USAGE = "generatetestoutput [create | test]";
 	private static final String TEST_INPUT = "tests/input";
 	private static final String TEST_OUTPUT = "tests/output";
-
+*/
 	/**
 	 * @param args
 	 * @throws Exception 
-	 */
+	 *//*
 	public static void main(String[] args) throws Exception {
 		String action = "";
 		
@@ -190,5 +190,5 @@ public class TestOutput {
 		}
 
 	}
-
+*/
 }

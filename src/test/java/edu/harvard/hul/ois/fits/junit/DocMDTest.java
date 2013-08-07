@@ -17,7 +17,7 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.junit;
-
+/*
 import java.io.File;
 
 import javax.xml.stream.XMLOutputFactory;
@@ -32,12 +32,12 @@ import edu.harvard.hul.ois.fits.FitsOutput;
 import edu.harvard.hul.ois.ots.schemas.DocumentMD.DocumentMD;
 
 import org.custommonkey.xmlunit.*;
+*/
 
-
-public class DocMDTest extends XMLTestCase {
+public class DocMDTest /*extends XMLTestCase*/ {
 
     
-	@Test
+	/*@Test
 	public void testDocMD() throws Exception {	
     	Fits fits = new Fits();
     	File input = new File("testfiles/test.ods");
@@ -58,6 +58,6 @@ public class DocMDTest extends XMLTestCase {
 			docmd.output(writer);
 		}
     	
-	}
+	}*/
 
 }

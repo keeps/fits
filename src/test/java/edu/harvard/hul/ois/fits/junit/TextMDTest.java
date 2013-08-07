@@ -17,7 +17,7 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.junit;
-
+/*
 import java.io.File;
 
 import javax.xml.stream.XMLOutputFactory;
@@ -33,10 +33,10 @@ import edu.harvard.hul.ois.ots.schemas.TextMD.TextMD;
 
 import org.custommonkey.xmlunit.*;
 
+*/
+public class TextMDTest/* extends XMLTestCase */{
 
-public class TextMDTest extends XMLTestCase {
-
-    
+    /*
 	@Test
 	public void testTextMD() throws Exception {	
     	Fits fits = new Fits();
@@ -57,5 +57,5 @@ public class TextMDTest extends XMLTestCase {
 		textmd.output(writer);
     	
 	}
-
+*/
 }

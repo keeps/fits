@@ -27,7 +27,7 @@
  **********************************************************************/
 
 package edu.harvard.hul.ois.fits.junit;
-
+/*
 import static org.junit.Assert.*;
 
 import java.util.List;
@@ -62,10 +62,10 @@ import org.jdom.Document;
 import org.jdom.Element;
 import org.junit.Test;
 //import org.jdom.JDOMException;
-
+*/
 
 public class XmlContentConverterTest {
-
+/*
     public void testToMix () {
         // Construct a document using JDOM
         Document jdoc = new Document ();
@@ -226,5 +226,5 @@ public class XmlContentConverterTest {
         MarkupLanguage mklang = mklangs.get(0);
         assertEquals (mln, mklang.getValue());
     }
-
+*/
 }

@@ -17,7 +17,7 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.junit;
-
+/*
 import java.io.File;
 
 import javax.xml.stream.XMLOutputFactory;
@@ -33,11 +33,11 @@ import edu.harvard.hul.ois.fits.tools.Tool;
 import edu.harvard.hul.ois.ots.schemas.MIX.Mix;
 
 import org.custommonkey.xmlunit.*;
+*/
 
+public class MixTest /*extends XMLTestCase */{
 
-public class MixTest extends XMLTestCase {
-
-    
+    /*
 	@Test
 	public void testMIX() throws Exception {	
     	Fits fits = new Fits("");
@@ -67,5 +67,5 @@ public class MixTest extends XMLTestCase {
 		mix.output(writer);
 
 	}
-
+*/
 }

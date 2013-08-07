@@ -17,7 +17,7 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.junit;
-
+/*
 import java.io.File;
 
 import javax.xml.stream.XMLOutputFactory;
@@ -32,13 +32,13 @@ import edu.harvard.hul.ois.fits.FitsOutput;
 import edu.harvard.hul.ois.ots.schemas.XmlContent.XmlContent;
 
 import org.custommonkey.xmlunit.*;
-
+*/
 /*
  * BROKEN TEST
  */
-public class audioStdSchemaTest extends XMLTestCase {
+public class audioStdSchemaTest /*extends XMLTestCase */{
 
-    
+    /*
 	public void audioMD() throws Exception {	
     	Fits fits = new Fits();
     	File input = new File("testfiles/test.wav");
@@ -59,6 +59,6 @@ public class audioStdSchemaTest extends XMLTestCase {
 			xml.output(writer);
 		}
     	
-	}
+	}*/
 
 }

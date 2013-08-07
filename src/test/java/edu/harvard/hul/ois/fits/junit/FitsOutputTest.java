@@ -1,5 +1,5 @@
 package edu.harvard.hul.ois.fits.junit;
-
+/*
 import java.io.File;
 
 import javax.xml.stream.XMLOutputFactory;
@@ -11,8 +11,8 @@ import edu.harvard.hul.ois.fits.FitsOutput;
 import edu.harvard.hul.ois.fits.exceptions.FitsException;
 import edu.harvard.hul.ois.ots.schemas.XmlContent.XmlContent;
 import junit.framework.TestCase;
-
-public class FitsOutputTest extends TestCase {
+*/
+public class FitsOutputTest /*extends TestCase*/ {
 	/*
 	public void testFitsOutput() throws FitsException  {
 		Fits fits = new Fits();
@@ -42,7 +42,7 @@ public class FitsOutputTest extends TestCase {
 		}
 		
 	}*/
-	
+	/*
 	public void testFitsOutput2() throws FitsException, XMLStreamException  {
 		Fits fits = new Fits();
 		
@@ -58,7 +58,7 @@ public class FitsOutputTest extends TestCase {
 			if(f.getName().equals("CVS")) {
 				continue;
 			}
-			FitsOutput output = fits.examine(f);		
+			FitsOutput output = fits.examine(f);*/		
 			/*
 			assertNotNull(output.getFileInfoElements());
 			assertNotNull(output.getFileStatusElements());
@@ -69,7 +69,7 @@ public class FitsOutputTest extends TestCase {
 			assertNotNull(output.checkValid());
 			assertNotNull(output.getMetadataElement("md5checksum").getValue());
 			*/
-			String errorText = output.getErrorMessages();
+			/*String errorText = output.getErrorMessages();
 			XmlContent xml = output.getStandardXmlContent();
 			if(xml != null) {
 				XMLStreamWriter writer = xmlof.createXMLStreamWriter(System.out); 
@@ -84,5 +84,5 @@ public class FitsOutputTest extends TestCase {
 		
 
 		
-	}
+	}*/
 }
