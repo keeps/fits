@@ -47,7 +47,7 @@ public class ToolOutput {
         docBuilderFactory.setNamespaceAware(true);
         docBuilderFactory.setValidating(true);
         docBuilderFactory.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaLanguage", "http://www.w3.org/2001/XMLSchema");
-        docBuilderFactory.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaSource", Fits.FITS_HOME+Fits.internalOutputSchema);
+        docBuilderFactory.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaSource", this.getClass().getClassLoader().getResource(Fits.FITS_HOME+Fits.internalOutputSchema));
     }
 
     private static Namespace ns = Namespace.getNamespace("fits",Fits.XML_NAMESPACE);
@@ -118,6 +118,8 @@ public class ToolOutput {
 			XMLOutputter outputter = new XMLOutputter();
 			String xml = outputter.outputString(output);
 			
+			ToolErrorHandler eh = new ToolErrorHandler();
+			docBuilder.setErrorHandler(eh);
 			docBuilder.parse(new InputSource(new StringReader(xml)));
 			} 
 			catch(Exception e) {

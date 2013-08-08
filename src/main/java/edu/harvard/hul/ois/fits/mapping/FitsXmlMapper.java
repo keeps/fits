@@ -40,8 +40,7 @@ public class FitsXmlMapper {
 	
 	public FitsXmlMapper() throws JDOMException, IOException {
 		 SAXBuilder saxBuilder = new SAXBuilder();
-		 //System.out.print("poop" + this.getClass().getClassLoader().getResource(FITS_XML_MAP_PATH ));
-		 Document doc = saxBuilder.build(this.getClass().getClassLoader().getResource(FITS_XML_MAP_PATH));	
+		 Document doc = saxBuilder.build(this.getClass().getClassLoader().getResource(FITS_XML_MAP_PATH));
 		 List<Element> tElements = doc.getRootElement().getChildren("tool");		 
 		 for(Element tElement : tElements) {
 			 ToolMap xmlMap = new ToolMap(tElement);
