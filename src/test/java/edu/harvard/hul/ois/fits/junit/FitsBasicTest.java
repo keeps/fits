@@ -17,7 +17,7 @@
  * along with FITS.  If not, see <http://www.gnu.org/licenses/>.
  */
 package edu.harvard.hul.ois.fits.junit;
-/*
+
 import java.io.File;
 import org.junit.Test;
 
@@ -26,11 +26,11 @@ import edu.harvard.hul.ois.fits.FitsOutput;
 import edu.harvard.hul.ois.fits.tools.Tool;
 
 import org.custommonkey.xmlunit.*;
-*/
 
-public class FitsBasicTest /*extends XMLTestCase*/ {
 
-    /*
+public class FitsBasicTest extends XMLTestCase {
+
+    
 	@Test
 	public void testFits() throws Exception {	
     	Fits fits = new Fits("");
@@ -47,7 +47,5 @@ public class FitsBasicTest /*extends XMLTestCase*/ {
     	
     	FitsOutput fitsOut = fits.examine(input);
     	fitsOut.saveToDisk("fitsBasicTestOutput.xml");
-    	
 	}
-*/
 }

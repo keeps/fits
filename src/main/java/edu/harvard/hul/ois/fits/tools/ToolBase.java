@@ -107,7 +107,9 @@ public abstract class ToolBase implements Tool {
 			Configuration config = ((TransformerFactoryImpl)tFactory).getConfiguration();
 			DocumentWrapper docw = new DocumentWrapper(input,null,config);
 			JDOMResult out = new JDOMResult();
-			Templates templates = tFactory.newTemplates(new StreamSource(xslt));
+			
+			
+			Templates templates = tFactory.newTemplates(new StreamSource(this.getClass().getClassLoader().getResource(xslt).getFile()));
 			Transformer transformer = templates.newTransformer();
 			transformer.transform(docw, out);
 			doc = out.getDocument();

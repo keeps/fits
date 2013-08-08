@@ -121,7 +121,7 @@ public class Fits {
 			throw new FitsConfigurationException("Error reading "+FITS_XML+"fits.xml",e);
 		}
 		try {
-			mapper = new FitsXmlMapper();
+			mapper = new FitsXmlMapper(); 
 		} catch (Exception  e) {
 			throw new FitsConfigurationException("Error creating FITS XML Mapper",e);
 		} 
