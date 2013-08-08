@@ -57,7 +57,6 @@ public class MetadataExtractor extends ToolBase {
 
 		// Make sure the Harvester System is initialized.
 		//Config.getInstance();
-		
 		Config.getInstance().setXMLBaseURL(this.getClass().getClassLoader().getResource(Fits.FITS_XML+"nlnz").getPath());
 		
 		// Get the appropriate adapter.
